@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/kirish.css" />
+    <title></title>
+    <style>
+      .kirish {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        background-color: #1181d9;
+        color: #fff;
+        padding: 13px;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="container">
+        <header>
+            <div class="header_above">
+              <div class="header_logo">
+                <div class="header_logo_img">
+                  <a href="/">
+                    <img
+                      src="https://github.com/muhammadalikhurbonov/SmartBook/blob/main/assets/image/logo_ca90e1e9-33da-4ed1-bcb0-19c471d50256.png.png?raw=true"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="header_logo_text">
+                  <div class="header_logo_text_svg">
+                    <span>
+                      <svg
+                        width="35"
+                        height="31"
+                        viewBox="0 0 35 31"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10.725 17.595C11.8539 17.595 12.85 18.5911 12.85 19.7864V28.22C12.85 29.4153 11.8539 30.345 10.725 30.345H9.6625C7.27188 30.345 5.4125 28.4856 5.4125 26.095V21.9114C5.4125 19.5208 7.27188 17.595 9.6625 17.595H10.725ZM24.5375 17.595C26.8617 17.595 28.7875 19.5208 28.7875 21.9114V26.095C28.7875 28.4856 26.8617 30.345 24.5375 30.345H23.475C22.2797 30.345 21.35 29.4153 21.35 28.22V19.7864C21.35 18.5911 22.2797 17.595 23.475 17.595H24.5375ZM17.1 0.595001C26.5961 0.595001 33.768 8.56375 34.1 17.595V25.0325C34.1 25.6302 33.5688 26.095 33.0375 26.095H31.975C31.3773 26.095 30.9125 25.6302 30.9125 25.0325V17.595C30.9125 10.0247 24.6703 3.84891 17.1 3.84891C9.46328 3.84891 3.2875 10.0247 3.2875 17.595V25.0325C3.2875 25.6302 2.75625 26.095 2.225 26.095H1.1625C0.564844 26.095 0.1 25.6302 0.1 25.0325V17.595C0.365625 8.56375 7.5375 0.595001 17.1 0.595001Z"
+                          fill="#62AB00"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="header_logo_text_title">
+                    <h5>Free Support 24/7</h5>
+                    <h6>+01-202-555-0181</h6>
+                  </div>
+                </div>
+              </div>
+              <nav>
+                <ul>
+                  <li><a href="/"  style="color: #282828 !important;">Bosh sahifa</a></li>
+                  <li><a href="/">Adabiyotlar</a></li>
+                  <li><a href="/">Maqolalar</a></li>
+                  <li><a href="/">Dissertatsiyalar</a></li>
+                  <li><a href="/">Monografiyalar</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header_under">
+              <div class="header_under_categories">
+                <span>
+                  <svg
+                    width="15"
+                    height="14"
+                    viewBox="0 0 15 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.01 3.125C0.728754 3.125 0.510004 2.90625 0.510004 2.625V1.375C0.510004 1.125 0.728754 0.875 1.01 0.875H14.01C14.26 0.875 14.51 1.125 14.51 1.375V2.625C14.51 2.90625 14.26 3.125 14.01 3.125H1.01ZM1.01 8.125C0.728754 8.125 0.510004 7.90625 0.510004 7.625V6.375C0.510004 6.125 0.728754 5.875 1.01 5.875H14.01C14.26 5.875 14.51 6.125 14.51 6.375V7.625C14.51 7.90625 14.26 8.125 14.01 8.125H1.01ZM1.01 13.125C0.728754 13.125 0.510004 12.9062 0.510004 12.625V11.375C0.510004 11.125 0.728754 10.875 1.01 10.875H14.01C14.26 10.875 14.51 11.125 14.51 11.375V12.625C14.51 12.9062 14.26 13.125 14.01 13.125H1.01Z"
+                      fill="#282828"
+                    />
+                  </svg>
+                </span>
+                <p>Browse categories</p>
+                <span>
+                  <svg
+                    width="11"
+                    height="7"
+                    viewBox="0 0 11 7"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.03158 6.45312L0.461267 1.90625C0.250329 1.67188 0.250329 1.32031 0.461267 1.10938L1.00033 0.570312C1.21127 0.359375 1.56283 0.359375 1.7972 0.570312L5.43002 4.17969L9.03939 0.570312C9.27377 0.359375 9.62533 0.359375 9.83627 0.570312L10.3753 1.10938C10.5863 1.32031 10.5863 1.67188 10.3753 1.90625L5.80502 6.45312C5.59408 6.66406 5.24252 6.66406 5.03158 6.45312Z"
+                      fill="#282828"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="header_under_search">
+                <input type="search" id="search" placeholder="Search here..." />
+                <div class="search">Search</div>
+              </div>
+              <div class="header_under_signIn">
+                <a href="/"
+                  >Sign in <br />
+                  <span>
+                    <h6>or</h6>
+                    Register</span
+                  ></a
+                >
+              </div>
+            </div>
+          </header>
+      <main>
+        <div class="main_top">
+          <span
+            ><svg class="sc-bczRLJ fFA-dUj" height="32" width="32">
+              <path
+                d="M6.66669 16.0002H25.3334"
+                stroke="#74808C"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M13.3334 9.3335L6.66669 16.0002"
+                stroke="#74808C"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M13.3334 22.6667L6.66669 16"
+                stroke="#74808C"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </span>
+          <h1>Kirish</h1>
+        </div>
+        <div class="main_pagination">
+          <div class="kirish"><a href="">Kirish</a></div>
+          <div class="royxat"><a href="royxat.html">Ro'yxatdan o'tish</a></div>
+        </div>
+        <div class="main_form">
+          <form action="#">
+            <ul>
+              <li>
+                <label for="text"><span>*</span> Email</label>
+                <input
+                  type="email"
+                  name=""
+                  id="text"
+                  placeholder="Emailni kiriting"
+                />
+              </li>
+              <li>
+                <label for="password"><span>*</span>Parol</label>
+                <div class="inp">
+                  <input
+                    type="password"
+                    name=""
+                    id="password"
+                    placeholder="Parolni kiriting"
+                  />
+                </div>
+              </li>
+            </ul>
+            <div class="btns">
+              <button type="submit">
+                <span
+                  ><svg class="sc-bczRLJ hUhWGr mr-2">
+                    <path
+                      d="M15.5012 12.0002H5.49707"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M12.5 15.0015L15.5013 12.0003L12.5 8.99902"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M4.44702 16.0017C4.87554 16.8773 5.4453 17.6763 6.13345 18.3667C8.70851 20.9418 12.5812 21.7121 15.9457 20.3185C19.3101 18.9249 21.5038 15.6418 21.5038 12.0001C21.5038 8.35843 19.3101 5.07533 15.9457 3.68172C12.5812 2.28812 8.70851 3.05844 6.13345 5.63351C5.44531 6.32389 4.87555 7.12287 4.44702 7.99839"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </span>
+                Kirish
+              </button>
+              <button onclick="hemisFunction()" type="button" class="hemisbutn">
+                <span>
+                  <svg class="sc-bczRLJ iXQurb mr-2" stroke="#fff">
+                    <path
+                      d="M9.52396 11.922V14.2479C9.52385 14.7593 9.81281 15.2268 10.2703 15.4554L10.7925 15.7165C11.5527 16.0964 12.4473 16.0964 13.2075 15.7165L13.7297 15.4554C14.1872 15.2268 14.4761 14.7593 14.476 14.2479V11.922"
+                      stroke="#262A37"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12 21.0037C16.9726 21.0037 21.0037 16.9726 21.0037 12C21.0037 7.02736 16.9726 2.99625 12 2.99625C7.02733 2.99625 2.99622 7.02736 2.99622 12C2.99622 16.9726 7.02733 21.0037 12 21.0037Z"
+                      stroke="#262A37"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M7.9113 11.1156L10.9996 12.6583C11.6314 12.9734 12.3746 12.9734 13.0064 12.6583L16.0917 11.1156C16.3453 10.9892 16.5055 10.7302 16.5055 10.4468C16.5055 10.1635 16.3453 9.90451 16.0917 9.77806L13.0004 8.23542C12.3688 7.91931 11.6252 7.91931 10.9936 8.23542L7.9113 9.77806C7.65772 9.90451 7.49747 10.1635 7.49747 10.4468C7.49747 10.7302 7.65772 10.9892 7.9113 11.1156V11.1156Z"
+                      stroke="#262A37"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M16.5019 10.4464V12.2471"
+                      stroke="#262A37"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </span>
+                Hemis orqali kirish
+              </button>
+            </div>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <p>
+          Suspendisse in auctor augue. Cras fermentum est ac fermentum tempor.
+          Etiam vel magna volutpat, posuere eros
+        </p>
+        <div class="footer_card">
+          <div class="footer_card_img">
+            <img src="./assets/img/payment.png.png" alt="" />
+          </div>
+        </div>
+        <h6>
+          Copyright © 2019 <span>MassTechnologist.com.</span> All rights
+          reserved.
+        </h6>
+      </footer>
+    </div>
+    <div class="modal_hemis">
+      <div class="form">
+        <h1 class="h1">Hemisdagi universitetingizni tanlang</h1>
+        <form action="#">
+          <input type="search" placeholder="Universitetni qidirish" />
+          <div class="form_check">
+            <ul>
+              <li>
+                <label for="">
+                  <input type="radio" name="radio" id="check" />
+                  <div class="text">
+                    Abdulla Avloniy nomidagi Xalq taʼlimi muammolarini o‘rganish
+                    va istiqbollarini belgilash ilmiy-tadqiqot instituti
+                  </div>
+                </label>
+              </li>
+              <li>
+                <label for="">
+                  <input type="radio" name="radio" id="check" />
+                  <div class="text">ALFRAGANUS UNIVERSITY</div>
+                </label>
+              </li>
+              <li>
+                <label for="">
+                  <input type="radio" name="radio" id="check" />
+                  <div class="text">Andijon davlat chet tillari instituti</div>
+                </label>
+              </li>
+              <li>
+                <label for="">
+                  <input type="radio" name="radio" id="check" />
+                  <div class="text">Andijon davlat pedagogika institut</div>
+                </label>
+              </li>
+              <li>
+                <label for="">
+                  <input type="radio" name="radio" id="check" />
+                  <div class="text">Andijon davlat tibbiyot instituti</div>
+                </label>
+              </li>
+            </ul>
+          </div>
+          <div class="form_btn">
+            <button class="talaba">
+              <span>
+                <svg class="sc-bczRLJ iXQurb mr-2" stroke="#fff">
+                  <circle
+                    cx="12"
+                    cy="12.0001"
+                    r="9.00375"
+                    stroke="#262A37"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></circle>
+                  <path
+                    d="M16.0017 16.0018C15.8853 15.7091 15.7048 15.4462 15.4734 15.2324V15.2324C15.0836 14.8701 14.5711 14.6685 14.0388 14.6682H9.96214C9.42958 14.6686 8.91681 14.8701 8.52654 15.2324V15.2324C8.29569 15.4466 8.11527 15.7094 7.99832 16.0018"
+                    stroke="#262A37"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <circle
+                    cx="12"
+                    cy="10.2495"
+                    r="2.25094"
+                    stroke="#262A37"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></circle>
+                </svg>
+              </span>
+              Talaba
+            </button>
+            <button class="pedagog">
+              <span>
+                <svg class="sc-bczRLJ iXQurb mr-2" stroke="#fff">
+                  <circle
+                    cx="12"
+                    cy="12.0001"
+                    r="9.00375"
+                    stroke="#262A37"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></circle>
+                  <path
+                    d="M16.0017 16.0018C15.8853 15.7091 15.7048 15.4462 15.4734 15.2324V15.2324C15.0836 14.8701 14.5711 14.6685 14.0388 14.6682H9.96214C9.42958 14.6686 8.91681 14.8701 8.52654 15.2324V15.2324C8.29569 15.4466 8.11527 15.7094 7.99832 16.0018"
+                    stroke="#262A37"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <circle
+                    cx="12"
+                    cy="10.2495"
+                    r="2.25094"
+                    stroke="#262A37"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></circle>
+                </svg> </span
+              >O'qituvchi
+            </button>
+          </div>
+        </form>
+      </div>
+      
+    </div>
+    <script src="kirish.js">
+             
+    </script>
+  </body>
+</html>
