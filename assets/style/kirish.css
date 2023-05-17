@@ -82,7 +82,7 @@
   list-style-type: none;
 }
 * .container header .header_above nav ul li:nth-of-type(1) a {
-  color: #62ab00;
+  color: #282828;
 }
 * .container header .header_above nav ul li a {
   text-decoration: none;
@@ -2118,8 +2118,26 @@
   * .select li select option::placeholder {
     color: rgba(38, 42, 55, 0.337254902);
   }
+  * .select li textarea {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 22px;
+    font-weight: 400;
+    padding: 12px 13px 14px;
+    border-radius: 12px;
+    max-width: 10% !important;
+  }
+  * .select li textarea::-moz-placeholder {
+    color: rgba(38, 42, 55, 0.337254902);
+  }
+  * .select li textarea:-ms-input-placeholder {
+    color: rgba(38, 42, 55, 0.337254902);
+  }
+  * .select li textarea::placeholder {
+    color: rgba(38, 42, 55, 0.337254902);
+  }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 440px) and (max-width: 340px) {
   * main {
     margin-left: 20px;
     margin-right: 20px;
