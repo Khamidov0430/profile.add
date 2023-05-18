@@ -2298,8 +2298,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        transform:  scale(1);
-        opacity: 1;
+        transform:  scale(0);
+        opacity: 0;
         backdrop-filter: blur(2px);
         .form {
           width: 100%;
