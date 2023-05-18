@@ -1863,8 +1863,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transform:  scale(1);
-    opacity: 1;
+    transform:  scale(0);
+    opacity: 0;
     backdrop-filter: blur(2px);
     .form {
       width: 100%;
@@ -2429,4 +2429,17 @@
       }
     }
   }
+}
+.modal_exit{
+  margin-left: 98%;
+  margin-top: -20px;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  background-color: #28282879;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
 }
